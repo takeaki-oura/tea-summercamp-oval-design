@@ -1,0 +1,36 @@
+/*bodyへbackground-colorによる色付け*/
+body{
+  background-color:#f0f5f6;
+}
+
+.home-content{
+  width: 950px;
+  margin:0 auto;
+  padding:15px;
+}
+
+.user-content {
+  width:280px;
+  float:left;
+  margin-top:70px;
+}
+
+.article-content {
+  float:right;
+  margin-top:70px;
+}
+
+/*それな！ボタン*/
+.sorena-btn{
+  font-family:メイリオ;
+  font-weight:bold;
+}
+
+.sorena-btn:hover{
+  color:#ed5a33;
+}
+
+.sorena-btn:active{
+  color:#ed5a33;
+  font-size:120%;
+}

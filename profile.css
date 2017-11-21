@@ -1,0 +1,80 @@
+/*bodyへbackground-colorによる色付け*/
+body{
+  background-color:#f0f5f6;
+}
+
+.setting-content {
+  border-radius:15px;
+  width:730px;
+  margin: 0 auto;
+  padding:15px;
+}
+
+
+/*設定項目のラッパー*/
+.setting-wrapper {
+  border-radius:15px;
+  background-color:rgb(221, 244, 240);
+  
+  margin-top:100px;
+  color: #444;
+}
+
+.settings ul{
+  list-style: none;
+  padding-top:10px;
+  padding-bottom: 30px;
+  margin:10px 25px 10px 0px;
+}
+
+.setting-list span {
+  position:absolute;
+  top:-3px;
+  right:35px;
+  color: #B3B3B3;
+  font-size:20px;
+  font-weight:bold;
+  
+  color:#777;
+  font-size:18px;
+}
+
+/*.cogクラス*/
+.cog{
+  color:#368;
+  letter-spacing:1px;
+  font-size:40px;
+  font-weight:bold;
+}
+
+.cog:hover{
+  transition:color 0.5s;
+  cursor:default;
+  color:#59c;
+}
+
+.cog i{
+  margin-right:10px;
+}
+
+
+.settings h3 {
+  letter-spacing:0.5px;
+  font-size: 19px;
+  font-weight:bolder;
+  color:#666;
+  padding-left:10px;
+}
+
+.settings h3:hover{
+  transition:color 0.5s;
+  color:#68b;
+}
+
+/*各項目*/
+.setting-list{
+  font-family:游ゴシック;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  text-align: left;
+}

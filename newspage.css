@@ -1,0 +1,71 @@
+/*bodyへbackground-colorによる色付け*/
+body{
+  background-color:#f0f5f6;
+}
+
+.home-content{
+  width: 950px;
+  margin:0 auto;
+  padding:15px;
+}
+
+.user-content {
+  width:280px;
+  float:left;
+  margin-top:115px;
+}
+
+.article-content {
+  margin-top:115px;
+}
+
+.news-right {
+  float:right;
+}
+
+
+.news-name {
+  position:fixed;
+  width:100%;
+  top:50px;
+}
+
+@media(max-width:979px) {
+  .addMention {
+    right:10px;
+  }
+}
+
+@media(max-width:703px) {
+  #top-btn {
+    bottom:95px;
+  }
+}
+
+/*それな！ボタン*/
+.sorena-btn{
+  font-family:メイリオ;
+  font-weight:bold;
+}
+
+.sorena-btn:hover{
+  color:#ed5a33;
+}
+
+.sorena-btn:active{
+  color:#ed5a33;
+  font-size:120%;
+}
+
+
+/*投稿者下のボーダー*/
+.userName{
+  color:#666;
+  border-bottom:1px solid #ddd;
+}
+
+
+
+.input-display {
+  display:none;
+}

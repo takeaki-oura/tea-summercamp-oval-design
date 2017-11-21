@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--実際のホームページの画面-->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>Article</title>
+    <!-- BootstrapCSS読込 -->
+    <link rel = "stylesheet" href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- article.cssのCSS読み込み -->
+    <link rel="stylesheet" href="userArticle.css">
+    <link rel="stylesheet" href="logIn.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="homeNotLogin.css">
+    <!--pageTop.cssの読込-->
+    <link rel="stylesheet" href="pageTop.css">
+    <!-- jQuery読込 -->
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapJS読込 -->
+    <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--FontAwesome読込-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span>N</span>EWSAL</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">設定</a></li>
+              <li><a href="#">新規登録</a></li>
+              <li><a href="#">ログイン</a></li>
+              <li><a href="#">ログアウト</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <div class = "home-content">
+
+
+
+
+
+      <div class = "home-left">
+        <div class = "user-content">
+          <form class="form-content">
+            <div class = "form-group">
+              <!--E-mail icon-->
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <label  for= "exampleInputEmail1">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <!--Key icon-->
+              <i class="fa fa-key" aria-hidden="true"></i>
+              <label for = "exampleInputPassword1">Password</label>
+              <input type = "password" class = "form-control" id = "exampleInputPassword1" placeholder = "Password">
+            </div>
+            <button type = "submit" class = "btn btn-default" id = "btn-margin">Log In</button>
+          </form>
+        </div>
+        
+        <div class = "signUpLink">
+          <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Sign up now?</a>
+        </div>
+        
+      <div class = "link-whatis">
+        <div class = "black-image">
+          <a href="#">WHAT IS the NEWSAL?</a>
+        </div>
+      </div>
+        
+      </div>
+      
+
+
+
+
+
+
+      <div class = "article-content">
+        <div class = "articles">
+          <!--ユーザページの1メンション-->
+          <div class="userArticle">
+            <!--以下個別記事-->
+            <div class ="article">
+              <div class = "article-name">けものふれんず二期まだですかあああああああああ。</div>
+              <div class = "article-date">yyyy.mm.dd</div>
+              <div class = "article-right">
+                <div class = "article-mention">
+                  <p class = "mentiom-chara"><i class="fa fa-comments-o" aria-hidden="true"></i>mention</p>
+                  <p class = "mention-figure">xxxxx</p>
+                </div>
+              </div>
+            </div>
+            <!--以下ユーザ反応-->
+            <div class ="mention">
+              <!--ユーザーのleftにコメントアイコンを表示-->
+              <div class = "userName"><i class="fa fa-comments-o" aria-hidden="true"></i>ユーザ名</div>
+              <div class = "mention-info">スナネコ©かわいいよぉぉぉぉ！ああああああああああああああああああああああ</div>
+              <div class = "mention-bot">
+              <!--それな！ボタン(未ログイン時使用不可)-->
+              <a class="sorena-btn" href="#">
+                <div class = "sorena"><i class="fa fa-hand-o-right" aria-hidden="true"></i>それな！ xxx</div>
+              </a>
+                <div class = "mention-date">hh時間前</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id = "top-btn">
+        <i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i>
+      </div>
+      
+    <div class = "clear" > </div>
+      
+    </div>
+    <!--pageTop.js-->
+    <script src="pageTop.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--設定画面-->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>Setting</title>
+    <!-- BootstrapCSS読込 -->
+    <link rel = "stylesheet" href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- article.cssのCSS読み込み -->
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="profile.css">
+    <!-- jQuery読込 -->
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapJS読込 -->
+    <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--FontAwesome読込-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span>N</span>EWSAL</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">設定</a></li>
+              <li><a href="#">新規登録</a></li>
+              <li><a href="#">ログイン</a></li>
+              <li><a href="#">ログアウト</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <div class = "setting-content">
+      <div class = "setting-wrapper">
+        <div class = "settings">
+          <ul>
+             <!--歯車アイコンの追加-->
+            <div class="cog">
+              <i class="fa fa-cog fa-spin" aria-hidden="true"></i>プロフィール
+            </div>
+            
+            <li class="setting-list">
+              <div class = "setting-name">
+                <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i>名前</h3>
+                <span>a中b郎</span>
+              </div>
+            </li>
+            
+            <li class="setting-list">
+              <div class = "setting-name">
+                <h3><i class="fa fa-birthday-cake" aria-hidden="true"></i>誕生日</h3>
+                <span>yyyy年mm月dd日</span>
+              </div>
+            </li>
+            
+            <li class="setting-list">
+              <div class = "setting-name">
+                <h3><i class="fa fa-venus-mars" aria-hidden="true"></i>性別</h3>
+                <span>g性</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   <script src="setting.js"></script>
+  </body>
+</html>

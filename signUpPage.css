@@ -1,0 +1,66 @@
+/*signupのページのcss*/
+
+
+
+body {
+    /*padding-bottom: 100%;*/
+    background-image:url(newspaper.jpg);
+   /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+   
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+   
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+   
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+}
+
+
+/*フォーム全体*/
+.form-content {
+  border-radius:15px;
+  /*ホームに利用する際には透過をオフにする*/
+  background-color:rgba(41, 194, 194, 0.9);
+  padding-top:20px;
+  margin:0 auto;
+  margin-top:100px;
+  text-align:center;
+  min-width: 250px;
+  max-width: 440px;
+  width:40%;
+}
+
+
+.form-group{
+  padding: 5px 10px;
+  
+}
+
+/*ログインボタン*/
+.btn-default {
+  margin-bottom: 13px;
+  font-family:游ゴシック;
+}
+
+/*label*/
+label{
+  letter-spacing:1px;
+  color:#555;
+  
+}
+
+.backover {
+  background-color:rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.form-content {
+  position: relative;
+}

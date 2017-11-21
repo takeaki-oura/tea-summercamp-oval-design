@@ -1,0 +1,104 @@
+/*bodyへbackground-colorによる色付け*/
+body{
+  background-color:#f0f5f6;
+}
+
+.home-content{
+  width: 950px;
+  margin:0 auto;
+  padding:15px;
+}
+
+.home-left {
+  float:left;
+}
+
+.user-content {
+  width:280px;
+  margin-top:70px;
+}
+
+.article-content {
+  float:right;
+  margin-top:70px;
+}
+
+.form-content {
+  margin :0;
+  width:280px;
+}
+
+.signUpLink a{
+  transition:all 0.3s;
+  border:1px solid #888;
+  
+  border-radius:5px;
+  /*ホームに利用する際には透過をオフにする*/
+  background-color:rgb(41, 194, 194);
+  padding-top:5px;
+  padding-bottom:3px;
+  margin:0 auto;
+  margin-top:30px;
+  text-align:center;
+  width:140px;
+  color:#444;
+  font-family:游ゴシック;
+  letter-spacing:1px;
+  
+  display:block;
+  text-decoration: none;
+}
+
+.signUpLink a:hover{
+  color:#777;
+  background-color:rgb(41, 198, 198);
+}
+
+/*それな！ボタン（未ログイン時）*/
+.sorena-btn{
+  font-family:メイリオ;
+  font-weight:bold;
+}
+
+.sorena-btn:hover{
+  color:#ed5a33;
+  cursor:default;
+}
+
+
+.link-whatis a{
+  transition:all 0.3s;
+  border:1px solid #888;
+  
+  color:#333;
+  
+  border-radius:5px;
+  
+  background-image:url(newspaper.jpg);
+  background-size: cover;
+
+  
+  margin:0 auto;
+  margin-top:30px;
+  
+  text-align:center;
+  line-height:80px;
+  font-family:Georgia;
+  font-size:17px;
+  
+  height:80px;
+  width:220px;
+  letter-spacing:1px;
+  
+  display:block;
+  text-decoration: none;
+  
+  position: relative;
+}
+
+.link-whatis a:hover{
+  color:#47c;
+  background-color:rgba(41, 198, 198, 0.8);
+}
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--実際のホームページの画面-->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>Article</title>
+    <!-- BootstrapCSS読込 -->
+    <link rel = "stylesheet" href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--pageTop.cssの読込-->
+    <link rel="stylesheet" href="pageTop.css">
+    <!-- CSS読み込み -->
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="newsName.css">
+    <link rel="stylesheet" href="addMention.css">
+    <link rel="stylesheet" href="newspage.css">
+
+    
+    <!-- jQuery読込 -->
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapJS読込 -->
+    <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--FontAwesomeの読込-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span>N</span>EWSAL</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">設定</a></li>
+              <li><a href="#">新規登録</a></li>
+              <li><a href="#">ログイン</a></li>
+              <li><a href="#">ログアウト</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <div class = "news-name">
+          <a href="#" target=”_blank”>
+            <div class ="news-color"><span>記事名ですよ！</span> <small>クリックで元記事へ</small></div>
+          </a>
+      </div>
+
+    
+    <div class = "home-content">
+      <div class = "user-content">
+        <h2><i class="fa fa-user-o" aria-hidden="true"></i>ユーザ名表示</h2>
+        <div class = "user-infos">
+          <div class = "user-info">メンション<br>xxxx(数)</div>
+          <div class = "user-info">フォロー<br>xxx</div>
+          <div class = "user-info">フォロワー<br>xxxx</div>
+          <div class = "clear"> </div>
+        </div>
+      </div>
+      
+      <div class = "news-right">
+      
+        <div class = "article-content">
+          <div class = "articles">
+            <!--以下個別記事 forで回す？-->
+            <div class ="mention">
+              <div class = "userName">ユーザ名</div>
+              <div class = "mention-info">スナネコ©かわいいよぉぉぉぉ！ああああああああああああああああああああああ</div>
+              <div class = "mention-bot">
+              <!--それな！ボタン-->
+              <a class="sorena-btn" href="#">
+                <div class = "sorena"><i class="fa fa-hand-o-right" aria-hidden="true"></i>それな！ xxx</div>
+              </a>
+                <div class = "mention-date">hh時間前</div>
+              </div>
+            </div>
+            
+            <div class ="mention">
+              <div class = "userName">ユーザ名</div>
+              <div class = "mention-info">公式発表まで待とう？</div>
+              <div class = "mention-bot">
+                <!--それな！ボタン-->
+                <a class="sorena-btn" href="#">
+                  <div class = "sorena"><i class="fa fa-hand-o-right" aria-hidden="true"></i>それな！ xxx</div>
+                </a>
+                <div class = "mention-date">hh時間前</div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+        
+        <div class = "addMention">
+          <form>
+            <textarea class = "input-mention"  placeholder ="記事への反応をMention!"></textarea>
+            <button type = "submit" class = "btn btn-default" >
+            <i class="fa fa-commenting" aria-hidden="true"></i>
+            Mention!</button>
+          </form>
+        </div>
+      
+      </div>
+
+      <div id = "top-btn">
+        <i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i>
+      </div>
+
+      
+    <div class = "clear" > </div>
+      
+    </div>
+    <!--pageTop.js-->
+    <script src="pageTop.js"></script>
+  </body>
+</html>

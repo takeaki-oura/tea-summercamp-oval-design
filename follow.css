@@ -1,0 +1,28 @@
+.btn-follow {
+  /*transition*/
+  transition:all 0.2s;
+  
+  border-radius:15px;
+  /*ホームに利用する際には透過をオフにする*/
+  padding-top:5px;
+  margin:0 auto;
+  margin-top:30px;
+  text-align:center;
+  width:280px;
+  color:#444;
+  font-family:游ゴシック;
+  border:1.5px outset rgb(41,194,194);
+}
+
+.btn-follow:hover{
+  border-color:rgb(194,41,41);
+}
+
+.btn-follow:active{
+  background-color:rgb(231, 204, 204);
+  border-style:inset;
+}
+
+.turn-off {
+  display : none;
+}

@@ -1,0 +1,30 @@
+header {
+  position:fixed;
+  width:100%;
+  z-index:200;
+}
+
+header .navbar{
+  background-color:#80CBC4;
+}
+
+header .nabvar-brand{
+  font-family:Verdana;
+}
+
+
+/*設定，新規登録，ログイン，ログアウトのクラス*/
+header .navbar-right{
+  font-family:游ゴシック;
+}
+
+header span{
+  font-size:26px;
+  color:#ded;
+  letter-spacing:1px;
+}
+
+header .navbar-default {
+  border-style:none;
+  border-bottom:solid 1px #666;
+}
